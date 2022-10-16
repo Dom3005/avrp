@@ -34,8 +34,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 5%;
-    padding-right: 2%;
+    padding: 30px 2%;
+    /* padding-right: 2%; */
     /* background-color: rgb(108, 180, 243); */
     height: 100px;
     overflow: hidden;
@@ -143,22 +143,24 @@ footer li a:hover:after{
     padding: 30px 5vw;
     transition: all 0.3s ease 0s;
 }
-#nav_links li a:hover {
-    letter-spacing: 0.5vw;
-}
 
-#nav_links li a:active{
+#nav_links li a:hover {
     letter-spacing: 0.25vw;
 }
 
-#socials {
-    font-size: 0;
-    display: inline-block;
-    width: 20vw;
+#nav_links li a:active{
+    letter-spacing: 0vw;
 }
+
+#socials{
+    width: 12.5vw;
+}
+
 #socials a{
-    padding-left: 5%;
+    display:inline-block;
+    padding-left: 10%;
 }
+
 #socials img {
     height: 1.5vw;
     transition: all .5s;
@@ -171,7 +173,8 @@ footer li a:hover:after{
     height: 100vh;
     background-image: linear-gradient(rgba(10,10,10, 0.9), rgba(29, 29, 29, 0.5)), url("images/background1.jpg");
     background-position: center;
-    background-size: 100vw 100vh;
+    background-size: cover;
+    /* background-size: 100vw; */
     position: relative;
 }
 
@@ -237,7 +240,7 @@ footer li a:hover:after{
 #aboutUs {
     margin-top: -10vh;
     top: 10vh;
-    height: 100vh;
+    height: 150vh !important;
     background-color: rgb(219, 224, 255);
 }
 
@@ -284,6 +287,68 @@ footer li a:hover:after{
     height: 65vh;
     border: 0px;
 }
+
+#featureTable{
+    background-color: #7289da;
+    width: 75vw;
+    height: 50vh;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#featureTable img{
+    width: 50vw;
+    height: 100%;
+}
+
+#featureTable div{
+    height: 50vh;
+    width: 25vw;
+    float: right;
+    padding: 2%;
+    overflow:scroll;
+    overflow-x: hidden;
+    text-align: justify;
+    /* -ms-overflow-style: none;
+    scrollbar-width: none; */
+}
+
+/* #featureTable div::-webkit-scrollbar {
+    display: none;
+} */
+
+#featureTable a{
+    color: #f2f5f7
+}
+
+#featureSelector{
+    background-color: rgb(23, 89, 155);
+    padding: 0 2px;
+    width: 75vw;
+    height: 10vh;
+    margin: 1vh auto;
+    display:flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+#featureSelector a{
+    text-align: center;
+    margin: auto 2px;
+    padding: 3vh 0;
+    background-color: rgb(100, 150, 200);
+    cursor: pointer;
+    overflow: none;
+    transform: translateY(-5%)
+}
+
+#featureSelector a:hover{
+    background-color: rgb(100, 150, 200);
+    /* transform: translateY(-5%); */
+}
+
+
 
 @media screen and (max-height: 300px) {
 	ul {
