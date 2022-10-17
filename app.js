@@ -2,9 +2,15 @@ let slide = 0;
 let slideAmount = 2;
 let activeFeature = 0;
 
-let features = [["Polizei", "images/polizei.jpg", "Unser Polizei System ist angepasst und hat paar Besonderheiten. Bisschen steht hier, bisschen auf Tiktok bro"],
-["Gangs", "images/gangs.png", "Yo, also unser Gang Script ist auch besonders, glaube ich"],
-["Team", "images/logo.png", "Team ist sehr freundlich glaube ich, bin mir da aber nicht so sicher"]]
+let features = [["Polizei", "images/lspd.jpeg", "Unser 'LSPD' überzeugt durch eine große einzigartige Polizeistation." +
+    "Die Polizei sorgt für die Sicherheit der Bürger von Los Santos. in der Polizeistation gibt es viele einzigartige coole Scripts, zum Beispiel"+
+    "können kriminelle Banden die Eingangstüren und die Tür des Chief-Büros aufbrechen anschließend können sie ihr Talent im Safe knacken beweisen."],
+["Gangs", "images/gand.webp", "Unsere Gangs in Los Santos haben viel Möglichkeiten ihre Größe in Los Santos unter Beweis zu stellen."+ 
+    "Die Gangs können spannende Missionen absolvieren, zum Beispiel können sie unseren einzigartigen 'Staatsbank-Raub' machen mehr Dazu in unserem TikTok über den Server." +
+    "Gangs kann jeder gründen. Gangs können sich ihr eigenes Anwesen etc. gegen Geld kaufen."],
+["Team", "images/logo.png", "Unser Team ist immer für jeden da und erreichbar sie helfen gerne bei Fragen rund um GTA 5 oder FiveM. Die Teamler sind im Spiel/Roleplay auch"+ 
+    "Mitspieler. Die Teamler spielen auch Roleplay und sie sind der Staat bzw die Stadtverwaltung. Wir helfen bei Frahen immer gerne mit Motivation und Freude euch"+ 
+    "guten Spielspaß zu ermöglichen weiter. "]]
 showSlides();
 setupFeatureSelector();
 

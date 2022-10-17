@@ -309,6 +309,7 @@ footer li a:hover:after{
     overflow:scroll;
     overflow-x: hidden;
     text-align: justify;
+    text-justify: inter-word;
     /* -ms-overflow-style: none;
     scrollbar-width: none; */
 }
@@ -340,7 +341,7 @@ footer li a:hover:after{
     background-color: rgb(100, 150, 200);
     cursor: pointer;
     overflow: none;
-    transform: translateY(-5%)
+    transform: translateY(-5%);
 }
 
 #featureSelector a:hover{
